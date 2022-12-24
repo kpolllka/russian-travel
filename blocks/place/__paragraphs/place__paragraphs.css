@@ -1,0 +1,35 @@
+.place__paragraphs {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    max-width: 484px;
+    gap: 26px;
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .place__paragraphs {
+      max-width: 456px;
+      gap: 27px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .place__paragraphs {
+      max-width: 352px;
+      gap: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place__paragraphs {
+      max-width: 288px;
+      gap: 25px;
+      padding-left: 16px;
+      grid-column: 1;
+      grid-row: 4;
+    }
+  }

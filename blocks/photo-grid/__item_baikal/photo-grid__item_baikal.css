@@ -1,0 +1,5 @@
+.photo-grid__item_baikal {
+    background: url(../../../images/photo-grid-baikal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

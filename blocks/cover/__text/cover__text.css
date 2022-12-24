@@ -1,0 +1,28 @@
+.cover__text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 0;
+    margin: 245px 312px;
+    align-items: center;
+    color: #FFFFFF;
+    z-index: 1;
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .cover__text {
+      margin: 195px 232px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .cover__text {
+      margin: 115px 104px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .cover__text {
+      margin: 33px 16px;
+    }
+  }
