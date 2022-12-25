@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
+@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -17,18 +18,7 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__span-item/intro__span-item.css);
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__item_train/photo-grid__item_train.css);
-@import url(../blocks/photo-grid/__item_atharva-tulsi/photo-grid__item_atharva-tulsi.css);
-@import url(../blocks/photo-grid/__item_tuman/photo-grid__item_tuman.css);
-@import url(../blocks/photo-grid/__item_sochi/photo-grid__item_sochi.css);
-@import url(../blocks/photo-grid/__item_arisa/photo-grid__item_arisa.css);
-@import url(../blocks/photo-grid/__item_baikal/photo-grid__item_baikal.css);
-@import url(../blocks/photo-grid/__item_elbrus/photo-grid__item_elbrus.css);
-@import url(../blocks/photo-grid/__item_kondratiev/photo-grid__item_kondratiev.css);
-@import url(../blocks/photo-grid/__item_kamchatka-1/photo-grid__item_kamchatka-1.css);
-@import url(../blocks/photo-grid/__item_kamchatka-2/photo-grid__item_kamchatka-2.css);
-@import url(../blocks/photo-grid/__item_baikal-2/photo-grid__item_baikal-2.css);
-@import url(../blocks/photo-grid/__item_ergaki/photo-grid__item_ergaki.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
@@ -40,7 +30,6 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
-@import url(../blocks/cover/__text/cover__text.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);

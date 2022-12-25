@@ -4,7 +4,7 @@
     color: #FFFFFF;
     list-style-type: none;
     text-align: left;
-    width: 690px;
+    max-width: 690px;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -13,12 +13,12 @@
 
   @media screen and (max-width: 1023px) {
     .intro__list {
-      width: 720px;
+      max-width: 720px;
     }
   }
 
   @media screen and (max-width: 767px) {
     .intro__list {
-      width: 288px;
+      max-width: 288px;
     }
   }
